@@ -1,0 +1,202 @@
+[
+  {
+    "name": "ubuntu",
+    "version": "18.04",
+    "eol_date": "2023-05-31",
+    "recommended_version": "22.04",
+    "effort": "M",
+    "why_it_matters": "Unsupported OS images miss security fixes and vendor support."
+  },
+  {
+    "name": "ubuntu",
+    "version": "20.04",
+    "eol_date": "2025-04-30",
+    "recommended_version": "22.04",
+    "effort": "S",
+    "why_it_matters": "Approaching support boundaries increases patching and compliance risk."
+  },
+  {
+    "name": "postgres",
+    "version": "11",
+    "eol_date": "2023-11-09",
+    "recommended_version": "16",
+    "effort": "L",
+    "why_it_matters": "Major-version lag increases risk of unpatched vulnerabilities."
+  },
+  {
+    "name": "postgres",
+    "version": "12",
+    "eol_date": "2024-11-14",
+    "recommended_version": "16",
+    "effort": "M",
+    "why_it_matters": "Older database engines raise upgrade pressure and support costs."
+  },
+  {
+    "name": "postgres",
+    "version": "13",
+    "eol_date": "2025-11-13",
+    "recommended_version": "16",
+    "effort": "M",
+    "why_it_matters": "Near-EOL data stores can block platform upgrade schedules."
+  },
+  {
+    "name": "postgres",
+    "version": "14",
+    "eol_date": "2026-11-12",
+    "recommended_version": "16",
+    "effort": "S",
+    "why_it_matters": "Staying current reduces maintenance windows and migration risk."
+  },
+  {
+    "name": "redis",
+    "version": "5",
+    "eol_date": "2022-12-31",
+    "recommended_version": "7",
+    "effort": "M",
+    "why_it_matters": "Legacy cache versions may expose known operational instability."
+  },
+  {
+    "name": "redis",
+    "version": "6",
+    "eol_date": "2024-06-30",
+    "recommended_version": "7",
+    "effort": "S",
+    "why_it_matters": "Outdated cache tiers risk drift from managed service defaults."
+  },
+  {
+    "name": "redis",
+    "version": "7",
+    "eol_date": "2027-06-30",
+    "recommended_version": "7",
+    "effort": "S",
+    "why_it_matters": "Current cache baseline keeps compatibility and support straightforward."
+  },
+  {
+    "name": "kubernetes",
+    "version": "1.22",
+    "eol_date": "2023-02-28",
+    "recommended_version": "1.29",
+    "effort": "L",
+    "why_it_matters": "Old cluster versions miss security patches and deprecate APIs."
+  },
+  {
+    "name": "kubernetes",
+    "version": "1.24",
+    "eol_date": "2023-11-30",
+    "recommended_version": "1.29",
+    "effort": "L",
+    "why_it_matters": "Control-plane lag increases risk for workload and add-on compatibility."
+  },
+  {
+    "name": "kubernetes",
+    "version": "1.26",
+    "eol_date": "2024-12-31",
+    "recommended_version": "1.29",
+    "effort": "M",
+    "why_it_matters": "Near-end versions complicate managed upgrade windows."
+  },
+  {
+    "name": "node",
+    "version": "14",
+    "eol_date": "2023-04-30",
+    "recommended_version": "20",
+    "effort": "M",
+    "why_it_matters": "Runtime EOL can break dependency and security update pipelines."
+  },
+  {
+    "name": "node",
+    "version": "16",
+    "eol_date": "2023-09-11",
+    "recommended_version": "20",
+    "effort": "M",
+    "why_it_matters": "Older Node baselines increase CI and package ecosystem friction."
+  },
+  {
+    "name": "node",
+    "version": "18",
+    "eol_date": "2025-04-30",
+    "recommended_version": "20",
+    "effort": "S",
+    "why_it_matters": "Upcoming runtime EOL should be addressed before roadmap scaling."
+  },
+  {
+    "name": "node",
+    "version": "20",
+    "eol_date": "2026-10-30",
+    "recommended_version": "20",
+    "effort": "S",
+    "why_it_matters": "Current LTS baseline reduces tech debt accumulation."
+  },
+  {
+    "name": "python",
+    "version": "3.8",
+    "eol_date": "2024-10-07",
+    "recommended_version": "3.12",
+    "effort": "M",
+    "why_it_matters": "Interpreter EOL limits support for modern security tooling."
+  },
+  {
+    "name": "python",
+    "version": "3.9",
+    "eol_date": "2025-10-31",
+    "recommended_version": "3.12",
+    "effort": "S",
+    "why_it_matters": "Near-EOL language versions increase upgrade pressure across services."
+  },
+  {
+    "name": "python",
+    "version": "3.10",
+    "eol_date": "2026-10-31",
+    "recommended_version": "3.12",
+    "effort": "S",
+    "why_it_matters": "Modern interpreters simplify dependency compatibility."
+  },
+  {
+    "name": "python",
+    "version": "3.11",
+    "eol_date": "2027-10-31",
+    "recommended_version": "3.12",
+    "effort": "S",
+    "why_it_matters": "Current language baseline keeps migration windows manageable."
+  },
+  {
+    "name": "elasticsearch",
+    "version": "7",
+    "eol_date": "2026-01-15",
+    "recommended_version": "8",
+    "effort": "M",
+    "why_it_matters": "Search cluster drift can expose unsupported APIs and plugins."
+  },
+  {
+    "name": "elasticsearch",
+    "version": "8",
+    "eol_date": "2027-12-31",
+    "recommended_version": "8",
+    "effort": "S",
+    "why_it_matters": "Current search stack lowers operational migration risk."
+  },
+  {
+    "name": "nginx",
+    "version": "1.20",
+    "eol_date": "2023-11-30",
+    "recommended_version": "1.26",
+    "effort": "S",
+    "why_it_matters": "Older edge layers can miss TLS and proxy hardening patches."
+  },
+  {
+    "name": "nginx",
+    "version": "1.24",
+    "eol_date": "2025-12-31",
+    "recommended_version": "1.26",
+    "effort": "S",
+    "why_it_matters": "Near-EOL ingress versions can create avoidable deployment blockers."
+  },
+  {
+    "name": "nginx",
+    "version": "1.26",
+    "eol_date": "2027-12-31",
+    "recommended_version": "1.26",
+    "effort": "S",
+    "why_it_matters": "Current gateway baseline keeps networking maintenance predictable."
+  }
+]
